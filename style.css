@@ -1,0 +1,72 @@
+/* Imposta il tema dark e un font elegante */
+body {
+    background-color: #0a0a0a;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+/* Contenitore centrale */
+.container {
+    background: rgba(30, 30, 30, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    max-width: 400px;
+    width: 90%;
+}
+
+/* Titolo principale */
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* Lista dei progetti */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Link nella lista */
+ul li a {
+    display: block;
+    background: rgba(50, 50, 50, 0.8);
+    padding: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+}
+
+/* Effetto hover sui link */
+ul li a:hover {
+    background: rgba(80, 50, 100, 0.9);
+    color: #c299ff;
+    transform: translateY(-3px);
+    font-size: 1.1rem;
+}
+
+/* Link di navigazione secondaria */
+.back-link {
+    display: block;
+    margin-top: 15px;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.back-link:hover {
+    color: #c299ff;
+}
