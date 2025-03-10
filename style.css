@@ -58,15 +58,24 @@ ul li a:hover {
     font-size: 1.1rem;
 }
 
-/* Link di navigazione secondaria */
-.back-link {
-    display: block;
-    margin-top: 15px;
-    color: #aaa;
+
+/* Link di navigazione precedente */
+.nav-back {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    background: rgba(50, 50, 50, 0.8);
+    padding: 10px;
+    border-radius: 10px;
     text-decoration: none;
+    color: white;
     font-size: 0.9rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
 }
 
-.back-link:hover {
+.nav-back:hover {
+    background: rgba(80, 50, 100, 0.9);
     color: #c299ff;
+    transform: translateY(-3px);
 }
